@@ -1,0 +1,98 @@
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: black;*/
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6db3f2+0,54a3ee+50,3690f0+65,862fef+100 */
+background: #6db3f2; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #6db3f2 0%, #54a3ee 50%, #3690f0 65%, #862fef 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #6db3f2 0%,#54a3ee 50%,#3690f0 65%,#862fef 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #6db3f2 0%,#54a3ee 50%,#3690f0 65%,#862fef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#862fef',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.wrapper {
+    background: white;
+    height: 500px;
+    width: 420px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.form {
+    
+    height: 400px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name_form {
+    margin-top: 15px; 
+    background: white;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+p {
+    color: #03a9f4;
+    font-family: Arial, Helvetica, "sans-serif";
+    font-weight: 600;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 380px;
+    width: 420px;
+}
+
+.form .items > .input {
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+}
+
+.form .items > .input:focus {
+    outline: none;
+    border-bottom: 1px solid #03a9f4;
+}
+
+.form .items > .button 
+{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    background: #03a9f4;
+    color: white;
+}
+
+.form .items > .button:focus {
+    outline: none;
+}
+
+
+footer {
+    background: #03a9f4;
+    height: 100px;
+    width: 420px;
+}
